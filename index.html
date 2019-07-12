@@ -7,20 +7,20 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
  <script>
  
-    $('.btn').click(function() {
-        const data = {name: "Said"};
-        $.ajax({
-            url: url,
-            type: "GET",
+$('btn').click(function() {
+    const data = {name: "Said"};
+    $.ajax({
+        url: url,
+        type: "GET",
 
-            success: function(result) {
-                console.log(result)
-            },
-            error: function(error) {
-                console.log(`Error ${error}`)
-            }
-        })
+        success: function(result) {
+            console.log(result)
+        },
+        error: function(error) {
+            console.log(`Error ${error}`)
+        }
     })
+})
     
  </script>
 
@@ -29,6 +29,7 @@
  
 <body>
 <h1>hello world</h1>
+<btn>click here</btn>
 </body>
  
 </html>
