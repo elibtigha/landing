@@ -1,11 +1,11 @@
 const url='https://github.com/login/oauth/authorize?client_id=Iv1.73333a21c7762914';
-$(document).ready(function(){
-  $("button").click(function(){
-    $.get( url, function(data, status){
-      console.log(`${data}`)
-    });
-  });
+
+$("button").click(function(){
+$.get( url, function(data, status){
+    console.log(`${data}`)
 });
+});
+
 
 
 
