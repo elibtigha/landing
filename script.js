@@ -30,3 +30,4 @@ Http.onreadystatechange = function() {
         console.log(code)
     }
 }
+hello
